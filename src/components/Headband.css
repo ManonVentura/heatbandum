@@ -1,0 +1,35 @@
+.container {
+    background-color: black;
+    overflow: hidden;
+    display: flex;
+    /* Fonctionne avec toutes les tailles */
+    width: 100%;
+    position: absolute;
+    /* top: 0%;
+    transform: translateY(0%); */
+    color: #d64858;
+    font-family: "MonoRegular";
+    /* pour rotate on enlève le translate et on rajoute le rotate */
+    /* transform:  rotate(90deg); */
+  }
+  .txt {
+    white-space: nowrap;
+    font-size: 40px;
+    word-spacing: 0.3rem;
+    animation: scrollTxt 20s linear infinite;
+  }
+  
+  /* .t1 {
+    color: red; 
+  }
+  .t2 {
+ color: blue;
+  } */
+  @keyframes scrollTxt {
+    0%{
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(-100%, 0);
+    }
+  }

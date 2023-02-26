@@ -1,0 +1,57 @@
+* {
+  cursor : none
+}
+
+body {
+  background-color: #f6f1e0;
+  background-size: 4px 4px;
+  background-image: repeating-linear-gradient(45deg, #d8d2cc 0, #d8d2cc 0.4px, #f6f1e0 0, #f6f1e0 50%);
+}
+
+
+@font-face {
+  font-family: "Regular";   /*Can be any text*/
+  src: local("Syne"),
+    url("./fonts/Syne-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Bold";   /*Can be any text*/
+  src: local("Syne"),
+    url("./fonts/Syne-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "ExtraBold";   /*Can be any text*/
+  src: local("Syne"),
+    url("./fonts/Syne-ExtraBold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Italic";   /*Can be any text*/
+  src: local("Syne"),
+    url("./fonts/Syne-Italic.ttf") format("truetype");
+}
+@font-face {
+  font-family: "MonoRegular";   /*Can be any text*/
+  src: local("Syne"),
+    url("./fonts/SyneMono-Regular.ttf") format("truetype");
+}
+
+.titre {
+  font-family: "ExtraBold";
+  font-size: 200px;
+  width: 100%;
+  word-spacing: 1rem;
+  height: fit-content;
+  margin-bottom: -0px;
+  margin-top: 0px;
+}
+
+.cursor {
+  background-color: #111;
+  height: 32px;
+  width:  32px;
+  border-radius: 50%;
+  position : fixed;
+  top:0;
+  left:0;
+  pointer-events: none;
+}
